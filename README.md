@@ -1,4 +1,4 @@
-# Pocketphinx on CHIP
+# Pocketsphinx on CHIP
 
 The `mictotext.py` script is a very simple example of using speech to text on CHIP.
  * employs a limited dictionary of ~100+ words
@@ -43,6 +43,8 @@ Now run
 python mictotext.py
 ```
 When you hear "TALK", say some numbers into the microphone. It will stop recording after 5 seconds or so, then crunch away at the audio to extract words. Once that is complete, it will "speak" the words back to you.
+
+There are also a couple other example scripts. `basic.py` is just a slightly modified example from the pocketsphinx-python repo. `pyaud_rec.py` is an example of recording audio using pyaudio.
 
 ## Credit
 Speak and spell samples found from http://www.maximporges.com/2011/10/08/speak-and-spell-samples/
