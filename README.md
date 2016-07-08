@@ -43,3 +43,6 @@ Now run
 python mictotext.py
 ```
 When you hear "TALK", say some numbers into the microphone. It will stop recording after 5 seconds or so, then crunch away at the audio to extract words. Once that is complete, it will "speak" the words back to you.
+
+## Credit
+Speak and spell samples found from http://www.maximporges.com/2011/10/08/speak-and-spell-samples/
